@@ -1,0 +1,15 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 15 Apr 2023 22:16:50 at http://plitio.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qYC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" -Y http://plitio.com/ -O1 "C:\Users\user\Desktop\first site" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:17:03	Warning: 	Moved Permanently for plitio.com/robots.txt
+22:17:03	Warning: 	Redirected link is identical because of 'URL Hack' option: plitio.com/robots.txt and https://plitio.com/robots.txt
+22:17:03	Warning: 	Warning moved treated for plitio.com/robots.txt (real one is https://plitio.com/robots.txt)
+22:17:03	Warning: 	Moved Permanently for plitio.com/
+22:17:03	Warning: 	Redirected link is identical because of 'URL Hack' option: plitio.com/ and https://plitio.com/
+22:17:03	Warning: 	File has moved from plitio.com/ to https://plitio.com/
+22:17:03	Warning: 	No data seems to have been transferred during this session! : restoring previous one!

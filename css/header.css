@@ -1,0 +1,240 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 3cm;
+    width: 100% !important;
+    position: relative;
+
+}
+
+.leftside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: calc(100%-34%);
+
+}
+
+.logo {
+    max-width: 120px;
+    padding-left: 20px;
+}
+
+.menu-left {
+    display: flex;
+    flex-direction: row;
+    font-family: serif;
+    justify-content: flex-start;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+}
+
+.menu-left a {
+    text-decoration: none;
+    width: 100%;
+    color: black;
+    flex-wrap: wrap;
+    text-decoration: none;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+}
+.menu-left a:after{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 100%;
+    bottom: -5px;
+    background: black;
+    height: 1px;
+    transition-property: left right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+
+}
+.menu-left a:hover::after,
+.menu-left a:active::after,
+.menu-left a:focus::after{
+
+      right: 50%;
+}
+
+.menu-right {
+    color: white;
+    background-color: #004080;
+    width: 34%;
+    float: right;
+    font-family: serif;
+    height: 100%;
+    text-align: center;
+    /* padding-left: 50px; */
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.left{
+    margin-left: 14px;
+}
+.menu-right a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    margin: 6px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.burger_menu {
+    padding-top: 7px;
+    display: none;
+    width: 80px;
+}
+
+#burgermenu {
+    position: absolute;
+    top: 30px;
+    display: none;
+}
+
+.burger-a {
+    display: none;
+    width: 100%;
+    height: 200px;
+    padding: 20px 20px;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 2s ;
+}
+
+.burger-a a {
+    text-decoration: none;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+#services{
+position: relative;
+
+}
+#services:hover  .menu_service{
+display: block;
+}
+.menu_service{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    background-color: white;
+    padding: 25px 20px;
+    z-index: 1;
+    border-radius: 15px;
+    box-shadow: 20px;
+    
+
+}
+
+.option_service{
+width: 100%;
+overflow: visible !important;
+position: absolute;
+
+
+}
+.right {
+    border-left: 2px solid #cb8624;
+    padding-left: 18px;
+
+}
+
+.get_app {
+    background-color: #c1904b;
+    width: 200px;
+    padding: 15px 23px;
+    border-radius: 50px;
+    margin-left: 10px;
+    border: 0;
+}
+
+@media only screen and (max-width:1440px) {
+    .menu-left {
+        font-size: 0.9375rem;
+        flex-wrap: nowrap;
+        padding-top: 10px;
+        /* padding-left: 10px; */
+    }
+
+    .menu-left a, .menu-left >div {
+        padding-top: 10px !important;
+        /* margin-right: 18px; */
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .menu-left {
+        display: none;
+    }
+
+    .menu-right {
+        width: 100%;
+        display: none;
+    }
+
+    #burgermenu {
+        width: 100%;
+        display: block;
+        top: 113px;
+
+    }
+
+    .burger_menu {
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    .burger-a {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        height: 600px;
+
+    }
+
+    .burger-a a {
+        border-bottom: 2px solid rgb(196, 196, 196);
+        color: black;
+    }
+}
+
+@media only screen and (max-width:840px) {
+    .nav-bar {
+        height: 3cm;
+    }
+
+    .menu-right {
+        display: none;
+    }
+
+    .menu-left {
+        display: none;
+    }
+
+    .burger_menu {
+        /* position: absolute; */
+        display: flex;
+
+    }
+
+}

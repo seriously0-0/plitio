@@ -1,0 +1,66 @@
+.third-part{
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+    width: 100% !important;
+
+}
+.banner-telehealth{
+    background-image: url(../images/banner-telehealth.jpg);
+    background-repeat:repeat-x ;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    padding-bottom: 100px;
+    margin-top: 30px;
+}
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px 0;
+
+}
+.telehealth{
+    font-size: 30px;    
+    line-height: 1.5;
+    font-family: 'Signika', sans-serif;
+
+}
+.contain-1{
+    padding: 20px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.contain-2{
+    line-height: 2;
+    font-size: 18px;
+    font-weight: lighter;
+    width: 100%;
+}
+.get-started{
+    font-size: 15px;
+    color: white;
+    width: 140px;
+    padding: 12px;
+    text-align: center;
+    background-color: #004080;
+    border-radius: 60px;
+    font-weight: lighter;
+    margin: 0 auto;    
+    margin-top: 30px;
+}
+@media only screen and (max-width:840px){
+     .container{
+        padding: 40px 10px 0;
+    }
+    .contain-2{
+        font-size: 15px;
+        line-height: 1.7;
+    }
+    
+}
+@media only screen and (max-width:970px) {
+
+}

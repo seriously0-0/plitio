@@ -1,0 +1,129 @@
+.options{
+    display: flex;
+    flex-direction: column;
+}
+.part1, .part2{
+    display: flex;
+    flex-direction: row;
+}
+.part1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #004080;
+    color: white;
+    border-top-left-radius: 60px;
+}
+#part3{
+    border-radius: 0;
+}
+.part1 img{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.part2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #004080;
+}
+
+.part2 img{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.text_part_option{
+    width: 50%;
+}
+.img_part_option{
+    width: 50%;
+    /* min-height: 746px; */
+}
+.part1 div img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.part1 p {
+    /* font-family: Signika,Roboto-Light,sans-serif; */
+    font-weight: lighter;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 470px;
+    margin-right: 120px;
+    font-size: 1.25rem;
+    letter-spacing: .3px;
+    line-height: 30px;
+}
+.part2 p{
+    /* font-family: Signika,Roboto-Light,sans-serif; */
+    font-weight: lighter;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 470px;
+    margin-right: 120px;
+    font-size: 1.25rem;
+    letter-spacing: .3px;
+    line-height: 30px;
+    color: #000000;
+}
+@media only screen and (max-width:840px){
+    .part1{
+        flex-direction: column-reverse;
+        border-top-left-radius: 50px;
+    }
+    .part2{
+        flex-direction: column;
+    }
+    #img_part1_option{
+        background-image: url(./images/family.jpg);
+        width: 100%;
+        height: 480px;
+        min-height: 450px;
+        background-size: cover;
+        background-position: 50% 11%;
+        border-top-left-radius: 50px;
+
+    }
+    #img_part2_option{
+        background-image: url(./images/man-with-phone.jpg);
+        width: 100%;
+        height: 480px;
+        min-height: 450px;
+        background-size: cover;
+        background-position: 50% 11%;
+    }
+    #img_part3_option{
+        background-image: url(./images/family-2.jpg);
+        width: 100%;
+        height: 480px;
+        min-height: 450px;
+        background-size: cover;
+        background-position: 50% 11%;
+    }
+    #img_part1{
+        display: none;
+    }
+    .text_part_option{
+        width: 100%;
+    }
+    
+    .part1 p, .part2 p{
+        padding: 70px 0 70px 20px;
+        max-width: 692px;
+        margin: 0;
+        letter-spacing: normal;
+    }
+}
+@media only screen and (max-width:450px){
+    #img_part1_option, #img_part2_option, #img_part3_option{
+        height: 350px;
+        min-height: 100px;
+}
+}

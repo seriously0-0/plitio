@@ -1,0 +1,228 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width-device-width , initial-scale=1.0">
+    <meta charset="UTF-8">
+    <!-- <link rel="stelysheet" href="./css/main.css"> -->
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/items.css">
+    <link rel="stylesheet" href="./css/banner_customer.css">
+    <link rel="stylesheet" href="./css/notif.css">
+    <link rel="stylesheet" href="./options.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/seven_part.css">
+    <link rel="stylesheet" href="./css/ninth_part.css">
+    <link rel="stylesheet" href="./css/tenth_part.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap" rel="stylesheet">
+    <script src="./js/customers.js"></script>
+</head>
+
+<body id="body">
+    <header style="width: 100%;">
+        <div class="nav-bar">
+            <div class="leftside">
+                <div><img src="./images/plitio-logo.svg" class="logo"></div>
+                <div class="menu-left" >
+                    <div style="position:relative " class="left"><a style="margin-left: 20px;" >About Plitio</a></div>
+                    <div style="position:relative " class="left"><a>Telehealth</a></div>
+                    <div style="position:relative " class="left"><a >How It Works</a></div>
+                    <div style="position:relative " class="left"><a >Pricing</a></div>
+                    <div style="position:relative " class="left" id="services" ><a>Services 
+                        <div class="menu_service" id="menu-service" >
+                            <a class="option_service">customers</a><br><br>
+                            <a class="option_service">doctors</a>
+                        </div>
+                    </a>
+                    </div>
+                    <div style="position:relative " class="left"><a >FAQ</a></div>
+                    <div style="position:relative " class="left"><a >Contact Us</a></div>
+                </div>
+            </div>
+            <img src="./icon-menu.png" class="burger_menu" id="burger_menu" onclick={burger()}>
+            <div  id="burgermenu">
+                <div class="burger-a" id="burger-a">
+                    <a href="https://plitio.com/" class="left" onmouseover="this.style.backgroundColor='blue'">About Plitio</a>
+                    <a href="https://plitio.com/" class="left" onmouseover="this.style.backgroundColor='red'">Telehealth</a>
+                    <a href="https://plitio.com/" class="left" onmouseover="this.style.backgroundColor='pink'">How It Works</a>
+                    <a href="https://plitio.com/" class="left" onmouseover="this.style.backgroundColor='purple'">Pricing</a>
+                    <a href="https://plitio.com/" class="left" onmouseover="this.style.backgroundColor='orange'">Services</a>
+                    <a href="https://plitio.com/" class="left" onmouseover="this.style.backgroundColor='yellow'">FAQ</a>
+                    <a href="https://plitio.com/" class="left" onmouseover="this.style.backgroundColor='green'">Contact Us</a>
+                </div>
+            </div>
+            <div class="menu-right" id="menu-right">
+                <div><a href="https://plitio.com/">Sign In </a></div>
+                <div><a href="https://plitio.com/" class="right">Sign Up</a></div>
+                <div class="dawnload-button" id="dawnload-button">
+                    <button type="button" class="get_app" onclick="myFunction()">DOWNLOAD THE APP</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="banner_customer">
+        <div class="banner_customer_background">
+        </div>
+        <div class="banner_customer_text">
+            <p>
+                With an online pharmacy, you have so much less to worry about.
+            </p>
+        </div>
+    </div>
+    <section class="notif">
+        <p>
+            Plitio was established by two Canadian pharmacists who wanted to make getting prescriptions filled less
+            time-consuming. In turn, this makes customers’ lives less hectic, reducing stress while simultaneously
+            lessening costs.
+        </p>
+    </section>
+    <section class="trusted_staff">
+        <div class="head_staff">
+            The trusted staff at Plitio:
+        </div>
+        <div class="service_item">
+            <div class="items">
+                <div class="icon">
+                    <img src="./images/medication.svg">
+                    <p>Prepare all forms of medication (including pills, capsules, creams, drops, insulin and inhalers)
+                    </p>
+                </div>
+            </div>
+            <div class="items">
+                <div class="icon">
+                    <img src="./images/express_delivery.svg">
+                    <p>Delivers for free, when you want, right to your door</p>
+                </div>
+            </div>
+            <div class="items">
+                <div class="icon">
+                    <img src="./images/automatic_refills.svg">
+                    <p>Sets up automatic refills and can contact your doctor to request more</p>
+                </div>
+            </div>
+            <div class="items">
+                <div class="icon">
+                    <img src="./images/cards.svg">
+                    <p>Works with your insurance provider, so payments are automatic</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="buttomline"></div>
+    <h2 class="head_staff">
+        Ditch waiting in line by going online.
+    </h2>
+    <section class="options">
+        <div class="part1">
+            <div class="text_part_option">
+                <p>
+                    With Plitio, you’ll shorten your to-do list because our online pharmacy is always open.No more
+                    dashes to the drug store or waiting in line.
+                </p>
+            </div>
+            <div class="img_part_option" id="img_part1_option">
+                <img src="./images/family.jpg" id="img_part1">
+            </div>
+        </div>
+        <div class="part2">
+            <div class="img_part_option" id="img_part2_option">
+                <img src="./images/man-with-phone.jpg" id="img_part1">
+            </div>
+            <div class="text_part_option">
+                <p id="part2">
+                    Manage your prescriptions using the app, pay less for prescriptions, and set up free delivery at a
+                    time that works for you.
+                </p>
+            </div>
+        </div>
+        <div class="part1" id="part3">
+            <div class="text_part_option">
+                <p>
+                    With Plitio, you’ll have round-the-clock access to your prescription information and access to a
+                    dedicated team of pharmacists and assistants.
+                </p>
+            </div>
+            <div class="img_part_option" id="img_part3_option">
+                <img src="./images/family-2.jpg" id="img_part1">
+            </div>
+        </div>
+    </section>
+    <div class="seventh_part" style="background-color: white !important;">
+        <div class="seventh_part_header" style="color: #004080;">
+            Download Plitio, your online pharmacy.
+        </div>
+        <div class="seventh_part_sub" style="color: #004080;">
+            Get it at the App Store or on Google Play.
+        </div>
+        <div class="stores" style="background-color: white;">
+            <img src="./images/apple.svg" class="seventh_part" id="apple" style="background-color: white;">
+            <img src="./images/google_play.svg" class="seventh_part" id="google" style="background-color: white;">
+        </div>
+    </div>
+    <div class="ninth_part">
+        <div class="left_side">
+            <div>
+
+                <div class="signup">
+                    <span class="side_line">
+                    </span>
+                    Sign up for the latest scoop
+                </div>
+            </div>
+            <div class="email">
+                <div class="address_mail">
+                    <input type="email" id="email" name="email" value="Email address">
+                </div>
+                <div>
+                    <input type="submit" value="SUBMIT" id="submit" onclick="email()">
+                </div>
+            </div>
+            <div class="social_media">
+                <div class="socialmedia_icon" id="facebook">
+                    <i class="fa fa-facebook"></i>
+                </div>
+                <div class="socialmedia_icon" id="linkdin">
+                    <i class="fa fa-linkedin"></i>
+                </div>
+                <div class="socialmedia_icon" id="instagram">
+                    <i class="fa fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="right_side">
+            <img src="./images/plitio-logo.svg" class="right_side">
+        </div>
+    </div>
+    <div class="tenth_part">
+        <div>
+            <img src="./images/11059114.png" class="logo_site">
+        </div>
+        <div class="address_site">
+            www.plitio.com<br>
+            is certified by LegitScript
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_text" id="footer_left" style="margin: 0 40px;">
+            <div class="copyright">
+                Copyright 2021. All rights reserved.
+            </div>
+            <div style="margin-left:20px">
+                <span class="sideline" style="background-color: #cb8624; width: 5px; height: 30px"></span>
+                Privacy Policy
+            </div>
+        </div>
+        <div class="footer_text" id="footer_right" ">
+                                    1-888-9-PLITIO (1-888-975-4846)
+                            </div>
+                </div>
+    </body>
+</html>

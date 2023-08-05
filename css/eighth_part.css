@@ -1,0 +1,92 @@
+.eighthpart{
+    /* width: 100%; */
+    background-color: #f7f7f7;
+    padding: 150px 0;
+    margin-top: 0;
+}
+.eighth_part{
+     display: flex;
+    flex-direction: row;
+    line-height: 1.5;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 25px;
+    margin-top: 0;
+    align-items: stretch;
+    margin:0 auto;
+    max-width: 1074px;
+}
+.name{
+    color: #004080;
+    font-size: 30px;
+}
+.Licence_number{
+    color: #004080;
+    font-size: 16px;
+}
+.address, .name-college{
+    font-weight: lighter;
+    color: #004080;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.details{
+    /* padding: 20px 40px 20px 0; */
+    width: 32%;
+    flex: none;
+    border-right: 2px solid #e2e2e2;
+    /* padding: 20px 40px; */
+    max-width: none;
+    padding-left: 0;
+    margin-left: 50px;
+    
+}
+.college{
+    display: flex;
+    /* flex: 3 1;    */
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: center;
+    width: 31%;
+    flex: none;
+    border-right: 2px solid #e2e2e2;
+    padding: 0px 20px;
+    max-width: none;
+    text-align: center;
+
+
+}
+
+.license{
+    width: 31%;
+    flex: none;
+    /* padding: 20px 40px; */
+    max-width: none;
+    padding-right: 0;
+    padding-left: 30px;
+ }
+
+@media only screen and (max-width:840px){
+    .eighthpart{
+        padding-bottom: 70px;
+    }
+    .eighth_part{
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+    .details, .college, .license{
+        padding: 30px 45px;
+        border: 0 ;
+        text-align: center;
+        width: 90%;
+        line-height: normal;
+    }
+    .college{
+        border-bottom: 2px solid #e2e2e2;
+        border-top: 2px solid #e2e2e2;
+    }
+    #email{
+        min-width: 100px;
+    }
+}

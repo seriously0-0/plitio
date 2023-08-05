@@ -1,0 +1,51 @@
+.notif{
+    display: flex;
+    margin: 50px auto;
+    padding: 64px 25px 50px;
+    background-color: #004080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1360px;
+    overflow: hidden;
+    /* padding: 0 25px; */
+}
+.notif p {
+    width: 100%;
+    /* max-width: 850px;
+    margin: 20px auto 0; */
+    padding: 0 60px;
+    color: white;
+    font-size: 1.5625rem;
+    text-align: center;
+    line-height: 33px;
+    letter-spacing: .38px;
+    font-family: 'Signika', sans-serif;
+    font-weight: lighter;
+}
+@media only screen and (max-width:900px){
+    .notif{
+        padding: 30px 20px;
+    }
+    .notif p {
+        padding: 0;
+    }
+}
+@media only screen and (max-width:767px){
+    .notif{
+        padding: 50px 25px 45px;
+        margin: 40px auto;
+    }
+    .notif p {
+    font-size: 1.15rem;
+    padding: 0 25px;
+    margin: 0;
+ }
+}
+@media only screen and (max-width:420px){
+    .notif p{
+        line-height: normal;
+        letter-spacing: normal;
+    }
+    
+}

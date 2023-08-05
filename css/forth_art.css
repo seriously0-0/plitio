@@ -1,0 +1,123 @@
+.forthpart{
+    display: flex;
+    flex-direction: column;
+    max-width: 1390px;
+    padding: 0 25px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.header_forthpart{
+    font-size: 42px;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    color: #004080;
+    text-align: center;
+    width: 100%;
+    margin: 0 0 50px;
+    line-height: 55px;
+    font-weight: bold;
+    font-family: 'Signika', sans-serif;
+
+}
+.sub_forthpart{
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     box-sizing: border-box;
+     width: 100%;
+}
+.images_forthpart{
+    display: flex;
+}
+.images_texts{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px 20px;
+    padding: 0 13px;
+    width: 18%;
+    
+
+}
+.images{
+    width: auto;
+    height: 102px;
+    text-align: center;
+    padding: 30px 0 30px ; 
+    margin: 0 auto;
+
+}
+.explanation{
+    text-align: center;
+    justify-content: center;
+    font-weight: lighter;
+    margin-top: 0px;
+    color: #004080;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Signika', sans-serif;
+
+}
+
+.explain{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    /* font-size: 15px; */
+    font-size: 1 rem;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+.forthpart_footer{
+    padding-bottom:70px ;
+    border-bottom: 2px solid rgb(229, 226, 226);
+}
+
+@media only screen and (max-width:767px){
+    .sub_forthpart{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .images_texts{
+        width: 100%;
+
+    }
+    .explanation{
+        width: 100%;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:840px){
+
+    .header_forthpart{
+        font-size: 25px;
+    margin-bottom: 54px;
+    }
+    .sub_forthpart{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .images_texts{
+        flex-direction: column;
+    margin-bottom: 20px;
+    margin-right: 0;
+    padding: 0;
+    justify-content: flex-start;
+    }
+    .images{
+        padding: 0;
+        height: 70px;
+    }
+    .images img{
+        width: 70px;
+        height: 70px;
+        width: 100%;
+        margin: 0;
+    }
+}

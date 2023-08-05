@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+22:16:54	178/178	---MC-	301	error ('Moved%20Permanently')	text/html	date:Sat,%2015%20Apr%202023%2018:46:52%20GMT	http://plitio.com/	C:/Users/user/Desktop/first%20site/plitio.com/index.html	(from )
+22:17:03	178/178	---MC-	301	error ('Moved%20Permanently')	text/html	date:Sat,%2015%20Apr%202023%2018:47:01%20GMT	http://plitio.com/robots.txt		(from )

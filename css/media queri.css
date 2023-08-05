@@ -1,0 +1,81 @@
+ /* @media only screen and (max-width: 1141px){
+    .menu-right{width: 50%;}
+    .nav-bar{
+    flex-direction:column-reverse;}
+    .motherphoto{width: 60%;
+    }
+    .step1,.step2,.step3{ 
+    width: 100%;
+    }
+    .txt-s1, .txt-s2 , .txt-s3{ height: 500px;
+    }
+    }
+    
+    @media only screen and (max-width: 1750){
+        img{
+            width: 50%;
+            background-size: contain;
+        }
+    }
+    
+    
+    
+    
+    @media only screen and (max-width:970px){
+        .first_part{
+            flex-direction:column;
+        }
+        .motherphoto{
+            width: 70%;
+        }
+        .text{
+            width: 30%;
+            padding-left: 0px;
+            margin-left: 0;
+            padding-right: 10px;
+        }
+    
+    
+            .menu-left{display: none;}
+            .menu-right{display: none;}
+            .first_part {
+                display: flex;
+                flex-direction:column ;
+    
+            }
+    
+            .head{
+                font-size: 40px;
+                padding: 0 0px;
+                margin: 30px 40px;
+            }
+            .sub{
+                margin: 40px 50px;
+            }
+            .get_started{
+                margin: 30px 80px  ;
+            }
+            .second_sub{
+                margin: 0;
+                font-size: x-large;
+                padding:0 30px;
+            }
+            .get_app{
+                padding-left: 100px;}
+            .cards{
+                flex-direction: column;
+                height: fit-content;
+                width: 100%;
+                justify-content: center;
+                }
+            .step3, .step2,.step1{ width: 100%;
+                
+            padding-bottom: 30px}
+        }
+      */
+@media  only screen and (max-width:840px) {
+    .{
+
+    }
+    
+}

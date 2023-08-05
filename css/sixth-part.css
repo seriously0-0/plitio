@@ -1,0 +1,101 @@
+.sixth_part{
+    display: flex;
+    /* flex-direction: row;  */
+    /* margin: 0 0px; */
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    width: 100% !important;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 25px;
+
+}
+.container_sixth{
+    /* width: calc(33.3333333333% - 30px);
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 100%; */
+    margin: 0 auto;
+    /* padding: 0 25px; */
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    overflow: hidden;
+    /* margin: 120px -15px; */
+}
+.contain_sixth{
+/* width: 23%; */
+width: 30%;
+margin: 10px;
+margin-bottom: 60px;
+max-width: 1200px;
+}
+.sixth_part_imgs{
+    width: 100%;
+    height: auto;
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+@media only screen and (max-width:1101px){
+    .container_sixth{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: auto !important;
+    }
+    .contain_sixth{
+        width: 30%;
+    }
+}
+@media only screen and (max-width:981px){
+
+    .sixth_part_imgs{
+        margin: 0;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+    .contain_sixth{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width:840px){
+    .sixth_part{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .sixth_part_imgs{
+        width: auto;
+        margin:20px auto;
+    }
+    .contain_sixth{
+        width: 100%;
+    }    
+}
+@media only screen and (max-width:767px){
+    .sixth_part{
+        margin: 40px 15px;
+    }
+
+}
+/* @media only screen and (max-width:370px){
+    .contain_sixth{
+        width: 100%;
+    }
+} */

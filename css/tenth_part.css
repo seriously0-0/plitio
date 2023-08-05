@@ -1,0 +1,30 @@
+.tenth_part{
+    display: flex;
+    flex-direction:row ;
+    background-color: #fafafa;
+    padding: 30px;
+    justify-content: center;
+    /* width: 100% !important; */
+    padding-right: 0;
+
+}
+.logo_site{
+    height: 89px;
+    width: 130px;
+    padding-right: 50px;
+}
+.address_site{
+    border-left: 2px solid rgb(222, 222, 222);
+    padding-left:50px ;
+    align-items: center;
+    margin-top: 20px;
+    color: rgb(114, 114, 114);
+    font-weight: lighter;
+    height: 40px;
+}
+@media only screen and (max-width:450px){
+    .tenth_part{
+        flex-direction: column;
+        align-items: center;
+    }
+}
